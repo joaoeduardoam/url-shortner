@@ -20,7 +20,7 @@ URLs encurtados; a segunda função gerencia o redirecionamento do link.
   - Responsável por gerar e armazenar os links encurtados em um bucket S3, junto com informações
 como a URL original e o tempo de expiração
 
-### Segunda Função Lambda - Redirecionador de URL 
+### Segunda Função Lambda - Redirecionador de URL https://github.com/joaoeduardoam/redirect-url-shortener
   - Gerencia o redirecionamento, verificando o código da URL curta e validando se a URL ainda
 está dentro do prazo de expiração antes de redirecionar o usuário.
 
